@@ -11,8 +11,6 @@ public class Shooter {
     private boolean Aux = false;
     private boolean State = false;
     private CANSparkMax articulate;
-    // private boolean inicio = false;
-    // private boolean fim = false;
 
     public Shooter() {
         shooter_1 = new CANSparkMax(3, MotorType.kBrushless);
